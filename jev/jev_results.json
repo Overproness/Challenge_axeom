@@ -1,0 +1,2618 @@
+{
+  "provider": "OpenCode (TypeSafe Jev)",
+  "requested_provider": "opencode",
+  "requested_model": "jev-1.13-free",
+  "requested_endpoint": "https://opencode.ai/inference/systemone/v1/systemone",
+  "transport": "curl",
+  "actual_models": [
+    "jev-1.13-free"
+  ],
+  "reported_cost_total_usd": 0.0,
+  "cost_reporting_complete": true,
+  "billing_sources": [
+    "free"
+  ],
+  "run_at": "2026-11-08T04:42:38.611864+00:00",
+  "predictions": [
+    {
+      "message_id": "cc8016eefce8d55a",
+      "source_line": 1,
+      "raw_message": "[2026-04-17 20:04] WHATSAPP from +1 469-555-0145 (Quinn): Is parking in the back ok?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "scheduling",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 1,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 940,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 940,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "scheduling",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1428
+    },
+    {
+      "message_id": "992c5d295e01799e",
+      "source_line": 3,
+      "raw_message": "[2026-04-22 19:13] EMAIL from office@trandental.com: Please blur the face of the client in meet the doctor, she didn't sign the release.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.99,
+            "probabilities": {
+              "revision": 0.99,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 938,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 938,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.99,
+        "needs_revision_probability": 0.95,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1147
+    },
+    {
+      "message_id": "9ee0d8acbdba92cf",
+      "source_line": 9,
+      "raw_message": "[2026-05-04 18:09] EMAIL from promo@fastfollowers.io: Partnership offer: let us run your ads for free for 30 days.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "spam",
+            "confidence": 0.96,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.04,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0.96,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 936,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 936,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "spam",
+        "route_probability": 0.96,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1920
+    },
+    {
+      "message_id": "ec5700af9761e836",
+      "source_line": 11,
+      "raw_message": "[2026-05-09 18:04] EMAIL from simone@sterlingbridal.com: Try-on day looks great. Approved! Post it.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "approval",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 1,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.07
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 981,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 981,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "approval",
+        "route_probability": 1,
+        "needs_revision_probability": 0.07,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2858
+    },
+    {
+      "message_id": "4397d35c780cc769",
+      "source_line": 15,
+      "raw_message": "[2026-05-14 17:35] EMAIL from simone@sterlingbridal.com: Actually we changed our mind on try-on day. Can we get a different song and a new intro? Sorry!",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 1,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 1036,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1036,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 1,
+        "needs_revision_probability": 0.94,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1643
+    },
+    {
+      "message_id": "e1a57fb85080f9ed",
+      "source_line": 17,
+      "raw_message": "[2026-05-16 13:35] WHATSAPP from +1 817-555-0102 (Joy): My friend Dr. Megan Patel at Patel Dental wants videos too. I gave her your number!",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 1,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 951,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 951,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 1,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1224
+    },
+    {
+      "message_id": "2799fd7ed4ea2cd1",
+      "source_line": 19,
+      "raw_message": "[2026-05-19 16:29] VOICE NOTE from +1 214-555-0127 (Victor), 0:17. Transcript: \"Insurance we take: add the line 'walk-ins welcome' at the end please.\"",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.97,
+            "probabilities": {
+              "revision": 0.97,
+              "churn": 0,
+              "sales": 0.01,
+              "billing": 0,
+              "scheduling": 0.01,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.54
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 959,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 959,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.97,
+        "needs_revision_probability": 0.54,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1184
+    },
+    {
+      "message_id": "a2e6d873042fea7f",
+      "source_line": 28,
+      "raw_message": "[2026-05-29 17:29] EMAIL from vlopez@summitptdallas.com: Insurance we take still has the same problem. I already told you about this.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "other",
+            "confidence": 0.53,
+            "probabilities": {
+              "revision": 0.38,
+              "churn": 0.03,
+              "sales": 0,
+              "billing": 0.01,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.58
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.35
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.08
+          }
+        },
+        "usage": {
+          "input_tokens": 938,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 938,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "other",
+        "route_probability": 0.58,
+        "needs_revision_probability": 0.35,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.08,
+        "continuation_risk": false,
+        "review_reason": "Uncertain classification; manual review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1341
+    },
+    {
+      "message_id": "6c78f3ddd04f387d",
+      "source_line": 31,
+      "raw_message": "[2026-06-09 08:32] EMAIL from angela@northstarmktg.com: Hi, Angela from Northstar Media Co. Please bill us (Northstar) for Sunset Pediatrics and Meridian Physical Therapy. We pay monthly.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.97,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.01,
+              "billing": 0.97,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0.02,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 953,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 953,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "billing",
+        "route_probability": 0.97,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2573
+    },
+    {
+      "message_id": "c454629cb5aca019",
+      "source_line": 40,
+      "raw_message": "[2026-06-19 13:57] EMAIL from vlopez@summitptdallas.com: Victor here. We'll pause after this month. Too many rounds of fixes, and my notes keep getting missed. Nothing personal.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "churn",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 1,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.55
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.93
+          }
+        },
+        "usage": {
+          "input_tokens": 1044,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1044,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "churn",
+        "route_probability": 1,
+        "needs_revision_probability": 0.55,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.93,
+        "continuation_risk": true,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2541
+    },
+    {
+      "message_id": "4f784595225d7d2c",
+      "source_line": 41,
+      "raw_message": "[2026-06-20 13:22] INSTAGRAM DM from @insta.support.team: Your Instagram account will be suspended. Verify here: bit.ly/insta-verify-now",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "spam",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 1,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 940,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 940,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "spam",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2787
+    },
+    {
+      "message_id": "5a7b5f959154b913",
+      "source_line": 43,
+      "raw_message": "[2026-06-22 12:31] WHATSAPP from +1 972-555-0140 (Simone): Sales went up after the reels. You can use this as a review!",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "praise",
+            "confidence": 0.84,
+            "probabilities": {
+              "revision": 0.01,
+              "churn": 0,
+              "sales": 0.01,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0.08,
+              "identity": 0,
+              "praise": 0.86,
+              "spam": 0,
+              "other": 0.04
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 948,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 948,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "praise",
+        "route_probability": 0.86,
+        "needs_revision_probability": 0.04,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1035
+    },
+    {
+      "message_id": "27c967a2c9381642",
+      "source_line": 56,
+      "raw_message": "[2026-06-30 14:43] EMAIL from sofia@cedarcoffee.com: Joy at Hillcrest Coffee loved our reels. She'll reach out.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "praise",
+            "confidence": 0.98,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.02,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0.98,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 937,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 937,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "praise",
+        "route_probability": 0.98,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2376
+    },
+    {
+      "message_id": "1978046e1e666466",
+      "source_line": 59,
+      "raw_message": "[2026-07-11 17:24] EMAIL from info@tranfamilylaw.com: Did anyone see my message about do i need a lawyer?? It's not fixed.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.99,
+            "probabilities": {
+              "revision": 0.99,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 1036,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1036,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.99,
+        "needs_revision_probability": 0.94,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.05,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 953
+    },
+    {
+      "message_id": "ec70989189bf485a",
+      "source_line": 65,
+      "raw_message": "[2026-07-18 13:05] EMAIL from reggie@evergreengym.co: Nutrition tip looks great. Approved! Post it.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "approval",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 1,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 931,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 931,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "approval",
+        "route_probability": 1,
+        "needs_revision_probability": 0.04,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 553
+    },
+    {
+      "message_id": "e03a55a90596362b",
+      "source_line": 68,
+      "raw_message": "[2026-07-22 10:20] EMAIL from growth@rank1seo.biz: Hey, crypto opportunity for content creators, 10x guaranteed.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "spam",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 1,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 933,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 933,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "spam",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1554
+    },
+    {
+      "message_id": "0a127314a8e70d02",
+      "source_line": 70,
+      "raw_message": "[2026-07-22 12:03] EMAIL from reggie@evergreengym.co: Actually we changed our mind on nutrition tip. Can we get a different song and a new intro? Sorry!",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 1,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 984,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 984,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 1,
+        "needs_revision_probability": 0.96,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2811
+    },
+    {
+      "message_id": "bdce5117835f6e5e",
+      "source_line": 89,
+      "raw_message": "[2026-07-30 16:40] EMAIL from bbrooks@willowfamilytherapy.com: The videos turned out great. Can we do this every month? What would that cost?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.99,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.99,
+              "billing": 0.01,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.32
+          }
+        },
+        "usage": {
+          "input_tokens": 996,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 996,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 0.99,
+        "needs_revision_probability": 0.06,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.32,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1354
+    },
+    {
+      "message_id": "c2c45599e3d225aa",
+      "source_line": 95,
+      "raw_message": "[2026-08-01 21:46] EMAIL from reggie@evergreengym.co: Big news: Evergreen Gym is now Evergreen Athletics! New email is reggie@evergreenathletics.com.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "identity",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 1,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 1042,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1042,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "identity",
+        "route_probability": 1,
+        "needs_revision_probability": 0.04,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1361
+    },
+    {
+      "message_id": "8f300c94f6f4122a",
+      "source_line": 103,
+      "raw_message": "[2026-08-12 21:30] EMAIL from lena@boldandbrave.fm: Cash is tight this month. Can I pay the August sessions together at the start of September?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 1,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 939,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 939,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "billing",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.04,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1563
+    },
+    {
+      "message_id": "817ef5cc6892d04c",
+      "source_line": 105,
+      "raw_message": "[2026-08-14 08:31] EMAIL from noreply@domain-renewals.net: FINAL NOTICE: your domain expires today. Pay now to keep it.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "spam",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 1,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.06
+          }
+        },
+        "usage": {
+          "input_tokens": 936,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 936,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "spam",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.06,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1125
+    },
+    {
+      "message_id": "5f6c2aed802ca475",
+      "source_line": 109,
+      "raw_message": "[2026-08-18 19:11] INSTAGRAM DM from @meridianphysicalthdfw: For walk-ins welcome use the other shot, the one outside, not inside.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "scheduling",
+            "confidence": 0.97,
+            "probabilities": {
+              "revision": 0.02,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0.97,
+              "approval": 0.01,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.26
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 940,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 940,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "scheduling",
+        "route_probability": 0.97,
+        "needs_revision_probability": 0.26,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1890
+    },
+    {
+      "message_id": "e3fa5a8460776c70",
+      "source_line": 111,
+      "raw_message": "[2026-08-19 14:07] EMAIL from raj@metroplexmakers.fm: Do you guys also cut short clips from our episodes? We'd pay for that. Let me know.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 1,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.28
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 941,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 941,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 1,
+        "needs_revision_probability": 0.28,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1915
+    },
+    {
+      "message_id": "24d2ed7666d38716",
+      "source_line": 126,
+      "raw_message": "[2026-08-26 13:31] INSTAGRAM DM from @colesautospatx: Hey I saw your reels for a roofing company. How much for a reels pack for my detail shop?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 1,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 943,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 943,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 1,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1212
+    },
+    {
+      "message_id": "219a4ae3d4f4e2ab",
+      "source_line": 136,
+      "raw_message": "[2026-08-30 10:21] WHATSAPP from +1 214-555-0158 (Mateo): Sent half. Rest when the next batch is done.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.71,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.01,
+              "billing": 0.74,
+              "scheduling": 0.05,
+              "approval": 0.01,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.19
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.1
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.05
+          }
+        },
+        "usage": {
+          "input_tokens": 944,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 944,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "billing",
+        "route_probability": 0.74,
+        "needs_revision_probability": 0.1,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.05,
+        "continuation_risk": false,
+        "review_reason": "Uncertain classification; manual review required",
+        "action_authorized": false
+      },
+      "latency_ms": 629
+    },
+    {
+      "message_id": "0901bd6057b13154",
+      "source_line": 142,
+      "raw_message": "[2026-09-03 14:34] WEBSITE FORM from lena.moore.mail@gmail.com (Lena Moore): Do you have a package where you cut short clips from my episodes? How much would that be?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 1,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.54
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 946,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 946,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 1,
+        "needs_revision_probability": 0.54,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 810
+    },
+    {
+      "message_id": "bf4f76db94d0be41",
+      "source_line": 143,
+      "raw_message": "[2026-09-03 15:00] EMAIL from aisha@maplemedspa.com: Quick update, our new office number is 972-555-0182. Please use this one from now on.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "identity",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 1,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 1048,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1048,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "identity",
+        "route_probability": 1,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2165
+    },
+    {
+      "message_id": "1885604c9d2a73ae",
+      "source_line": 144,
+      "raw_message": "[2026-09-03 19:48] VOICE NOTE from +1 972-555-0101 (Victor), 1:30. Transcript: \"Victor here. In the videos please say Price Insurance Group, the full name, not just Price Insurance. Compliance cares about this.\"",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.73,
+            "probabilities": {
+              "revision": 0.76,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0.24,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 1206,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1206,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.76,
+        "needs_revision_probability": 0.93,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Uncertain classification; manual review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2083
+    },
+    {
+      "message_id": "58f6c1ae6cd397b5",
+      "source_line": 156,
+      "raw_message": "[2026-09-08 15:59] WHATSAPP from +1 214-555-0196 (Trent): Can we move to 2pm instead?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "scheduling",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 1,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 1003,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1003,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "scheduling",
+        "route_probability": 1,
+        "needs_revision_probability": 0.06,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1276
+    },
+    {
+      "message_id": "3b9c6212346b3c25",
+      "source_line": 157,
+      "raw_message": "[2026-09-10 17:17] EMAIL from victor@priceinsures.com: The videos say \"Price Insurance\" again. I asked for the full name. Not happy.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.83,
+            "probabilities": {
+              "revision": 0.85,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0.15,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.9
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 1132,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1132,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.85,
+        "needs_revision_probability": 0.9,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.04,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2440
+    },
+    {
+      "message_id": "1442e7eaeec9ee4c",
+      "source_line": 161,
+      "raw_message": "[2026-09-12 15:44] EMAIL from raj@oakcliffrg.com: Got the videos, thanks. Accounting will handle the invoice.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.73,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0.76,
+              "scheduling": 0,
+              "approval": 0.02,
+              "identity": 0,
+              "praise": 0.22,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 977,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 977,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "billing",
+        "route_probability": 0.76,
+        "needs_revision_probability": 0.08,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.04,
+        "continuation_risk": false,
+        "review_reason": "Uncertain classification; manual review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2487
+    },
+    {
+      "message_id": "83e48fd9f5b3683d",
+      "source_line": 163,
+      "raw_message": "[2026-09-13 16:24] WHATSAPP from +1 214-555-0134 (Alan): My cousin Trent runs Morales Tire & Auto in Garland, he needs videos. His number is 469-555-0119. Call him!",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.98,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.98,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0.02,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 1143,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1143,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "sales",
+        "route_probability": 0.98,
+        "needs_revision_probability": 0.04,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2355
+    },
+    {
+      "message_id": "5f4c7d65512e76cb",
+      "source_line": 166,
+      "raw_message": "[2026-09-15 19:59] EMAIL from billing@acct-dept.co: We sell 10,000 real followers for $49.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "spam",
+            "confidence": 0.99,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0.01,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0.99,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 935,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 935,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "spam",
+        "route_probability": 0.99,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1755
+    },
+    {
+      "message_id": "b60ca0361303011d",
+      "source_line": 173,
+      "raw_message": "[2026-09-20 20:16] EMAIL from aisha@kindhandshomecare.com: We'll pay once the videos are posted. Can you send them?",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.63,
+            "probabilities": {
+              "revision": 0.02,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0.67,
+              "scheduling": 0,
+              "approval": 0.3,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.13
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 986,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 986,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "billing",
+        "route_probability": 0.67,
+        "needs_revision_probability": 0.13,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.04,
+        "continuation_risk": false,
+        "review_reason": "Uncertain classification; manual review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2186
+    },
+    {
+      "message_id": "a7258de62401929d",
+      "source_line": 183,
+      "raw_message": "[2026-09-25 09:57] WHATSAPP from +1 469-555-0161 (Joy): We have to cancel today's shoot, family emergency. Can we move it? We already paid.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "scheduling",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 1,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.06
+          }
+        },
+        "usage": {
+          "input_tokens": 952,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 952,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "scheduling",
+        "route_probability": 1,
+        "needs_revision_probability": 0.02,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.06,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1307
+    },
+    {
+      "message_id": "9fcfac8fee81f787",
+      "source_line": 185,
+      "raw_message": "[2026-09-26 11:18] WHATSAPP from +1 469-555-0146 (Raj): Thanks team, great session.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "praise",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 1,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.03
+          }
+        },
+        "usage": {
+          "input_tokens": 1054,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1054,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "praise",
+        "route_probability": 1,
+        "needs_revision_probability": 0.04,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.03,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 797
+    },
+    {
+      "message_id": "2d7dbb18eab37e9c",
+      "source_line": 188,
+      "raw_message": "[2026-09-29 21:41] WEBSITE FORM from sofia@priceinsures.com (Sofia Price, Price Insurance Group): We would like to talk about our contract and whether we continue.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "churn",
+            "confidence": 1,
+            "probabilities": {
+              "revision": 0,
+              "churn": 1,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.96
+          }
+        },
+        "usage": {
+          "input_tokens": 945,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 945,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "churn",
+        "route_probability": 1,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.96,
+        "continuation_risk": true,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 524
+    },
+    {
+      "message_id": "4653924efa5f1a6e",
+      "source_line": 190,
+      "raw_message": "[2026-10-02 01:52] EMAIL from rtran@horizonwp.com: Still not fixed on retirement myths. A little frustrated honestly.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.99,
+            "probabilities": {
+              "revision": 0.99,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.04
+          }
+        },
+        "usage": {
+          "input_tokens": 1125,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1125,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.99,
+        "needs_revision_probability": 0.95,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.04,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 1249
+    },
+    {
+      "message_id": "4fc34d672a47f184",
+      "source_line": 191,
+      "raw_message": "[2026-10-02 13:42] EMAIL from sofia@priceinsures.com: Following up. We need to talk about the contract this week.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "churn",
+            "confidence": 0.98,
+            "probabilities": {
+              "revision": 0,
+              "churn": 0.98,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0.01,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.01
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.87
+          }
+        },
+        "usage": {
+          "input_tokens": 989,
+          "output_tokens": 129,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 989,
+              "output": 129,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "churn",
+        "route_probability": 0.98,
+        "needs_revision_probability": 0.03,
+        "needs_revision": false,
+        "continuation_risk_probability": 0.87,
+        "continuation_risk": true,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2730
+    },
+    {
+      "message_id": "935a47acb1c2703f",
+      "source_line": 193,
+      "raw_message": "[2026-10-02 18:28] WHATSAPP from +1 972-555-0140 (Simone): ¿Pueden poner una canción más tranquila en new arrivals? Esta es muy movida.",
+      "actual_model": "jev-1.13-free",
+      "response": {
+        "model": "jev-1.13-free",
+        "answers": {
+          "route": {
+            "type": "choice",
+            "choice": "revision",
+            "confidence": 0.98,
+            "probabilities": {
+              "revision": 0.98,
+              "churn": 0,
+              "sales": 0,
+              "billing": 0,
+              "scheduling": 0,
+              "approval": 0,
+              "identity": 0,
+              "praise": 0,
+              "spam": 0,
+              "other": 0.02
+            }
+          },
+          "needs_revision": {
+            "type": "noul",
+            "noul": 0.53
+          },
+          "continuation_risk": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "usage": {
+          "input_tokens": 1071,
+          "output_tokens": 128,
+          "cost": 0,
+          "opencode": {
+            "billing_source": "free",
+            "list_cost": 0,
+            "tokens": {
+              "input": 1071,
+              "output": 128,
+              "reasoning": 0,
+              "cache_read": 0,
+              "cache_write_5m": 0,
+              "cache_write_1h": 0
+            }
+          }
+        }
+      },
+      "status": "succeeded",
+      "result": {
+        "route": "revision",
+        "route_probability": 0.98,
+        "needs_revision_probability": 0.53,
+        "needs_revision": true,
+        "continuation_risk_probability": 0.02,
+        "continuation_risk": false,
+        "review_reason": "Owner review required",
+        "action_authorized": false
+      },
+      "latency_ms": 2100
+    }
+  ]
+}

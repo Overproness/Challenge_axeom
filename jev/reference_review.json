@@ -1,0 +1,1160 @@
+{
+  "review_type": "Blinded secondary reference-label review",
+  "reviewer": "Separate reviewer; independent of initial label author and blinded to Jev predictions",
+  "reviewed_at_utc": "2026-11-08T04:40:32.115726+00:00",
+  "inputs": {
+    "reference_labels_sha256": "f5d8b45f52fd3c53e840f7a788c2be58447fa1c6d9b2e59e887c33645071a386",
+    "messages_sha256": "7109179113821b46a01aa73771bd5b78dfe5d589f8438bba4a382fa649ac40e6",
+    "triage_code_sha256_at_review": "cc7db2caeba9ec4fd2d0deda10810fd45e10ddb2312eae0c469f037c68efcfbf",
+    "reference_labels_sha256_at_review": "474757f448c83ce6890a0140a02ce03b6502f1793d00cf6acf9bc6f396c729a2",
+    "reference_labels_sha256_before_applicant_review_metadata": "5f5400f918e4964d80364449a58cca485c6d7b3de8ca9f5b056277f89d47feba"
+  },
+  "blinding": {
+    "read_original_messages_and_frozen_reference_labels": true,
+    "read_preceding_exact_contact_context": true,
+    "read_model_predictions_or_benchmark_results": false,
+    "made_api_calls": false,
+    "used_api_key": false,
+    "modified_original_labels_or_rubric": false
+  },
+  "rubric_interpretation": {
+    "route": "Main intent under existing CATEGORIES; actionable sales and billing can override incidental praise.",
+    "needs_revision": "Explicit current edit/correction, changed mind after approval, or unresolved edit follow-up. Delivery/posting alone is not an edit.",
+    "continuation_risk": "Explicit pause/end or consideration of continuation, including a follow-up whose exact-contact history establishes that meaning. Ordinary frustration or payment delay alone is false."
+  },
+  "summary": {
+    "examples_reviewed": 40,
+    "source_text_matches": 40,
+    "definite_incorrect_labels_found": 0,
+    "fully_agreed_examples": 39,
+    "ambiguous_route_examples": 1,
+    "agreed_needs_revision_labels": 40,
+    "agreed_continuation_risk_labels": 40
+  },
+  "scoring_recommendation": "Preserve all original frozen labels and report the primary score against them. If useful, additionally report a clearly labeled sensitivity analysis excluding only line105 from the route denominator (39). Do not change or remove examples based on model outcomes.",
+  "reviews": [
+    {
+      "message_id": "cc8016eefce8d55a",
+      "source_line": 1,
+      "source_reference": "data/messages.txt:1",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Parking is session logistics; no video edit or ongoing relationship decision.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "992c5d295e01799e",
+      "source_line": 3,
+      "source_reference": "data/messages.txt:3",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit face-blur correction to a named video; release concern is not a contract-continuation statement.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "9ee0d8acbdba92cf",
+      "source_line": 9,
+      "source_reference": "data/messages.txt:9",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Unsolicited vendor advertising offering ad services to the studio fits the frozen spam criterion.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "ec5700af9761e836",
+      "source_line": 11,
+      "source_reference": "data/messages.txt:11",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "approval",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "approval",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit approval and posting of the current video; the frozen rubric excludes publishing from revision.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 6,
+          "raw_message": "[2026-05-02 13:53] EMAIL from simone@sterlingbridal.com: For the try-on day video use the other shot, the one outside, not inside."
+        }
+      ]
+    },
+    {
+      "message_id": "4397d35c780cc769",
+      "source_line": 15,
+      "source_reference": "data/messages.txt:15",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit different-song and new-intro request. Same-contact line11 approved the version; a postapproval change is still a revision under this rubric.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 6,
+          "raw_message": "[2026-05-02 13:53] EMAIL from simone@sterlingbridal.com: For the try-on day video use the other shot, the one outside, not inside."
+        },
+        {
+          "line": 11,
+          "raw_message": "[2026-05-09 18:04] EMAIL from simone@sterlingbridal.com: Try-on day looks great. Approved! Post it."
+        }
+      ]
+    },
+    {
+      "message_id": "e1a57fb85080f9ed",
+      "source_line": 17,
+      "source_reference": "data/messages.txt:17",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Named referral seeking videos is a sales opportunity, not an edit to the sender's existing videos.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "2799fd7ed4ea2cd1",
+      "source_line": 19,
+      "source_reference": "data/messages.txt:19",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Voice transcript explicitly requests adding a line to a named video.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "a2e6d873042fea7f",
+      "source_line": 28,
+      "source_reference": "data/messages.txt:28",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Named unresolved-video complaint is a revision follow-up. It does not explicitly reconsider ongoing service.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "6c78f3ddd04f387d",
+      "source_line": 31,
+      "source_reference": "data/messages.txt:31",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Instructions about who pays and monthly billing concern billing; a third-party payer does not establish a video edit.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "c454629cb5aca019",
+      "source_line": 40,
+      "source_reference": "data/messages.txt:40",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "reviewed_label": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit ongoing-service pause makes churn the main route and risk true. Missed notes explain the pause but do not independently request a particular current edit.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 28,
+          "raw_message": "[2026-05-29 17:29] EMAIL from vlopez@summitptdallas.com: Insurance we take still has the same problem. I already told you about this."
+        },
+        {
+          "line": 30,
+          "raw_message": "[2026-06-06 04:32] EMAIL from vlopez@summitptdallas.com: Did anyone see my message about back pain myths? It's not fixed."
+        }
+      ]
+    },
+    {
+      "message_id": "4f784595225d7d2c",
+      "source_line": 41,
+      "source_reference": "data/messages.txt:41",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Impersonated platform support threatens suspension and supplies a verification link: the frozen spam criterion includes account threats/phishing.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "5a7b5f959154b913",
+      "source_line": 43,
+      "source_reference": "data/messages.txt:43",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "praise",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "praise",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Positive business result and testimonial permission fit praise. No new video correction or purchase inquiry.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "27c967a2c9381642",
+      "source_line": 56,
+      "source_reference": "data/messages.txt:56",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Names a referred business that will inquire about reels; sales is more specific than the positive wording.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "1978046e1e666466",
+      "source_line": 59,
+      "source_reference": "data/messages.txt:59",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Asks whether an earlier named video correction was seen and says it is not fixed: revision follow-up.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 48,
+          "raw_message": "[2026-06-27 09:24] EMAIL from info@tranfamilylaw.com: Please blur the face of the client in do i need a lawyer?, she didn't sign the release."
+        },
+        {
+          "line": 55,
+          "raw_message": "[2026-06-29 17:15] EMAIL from info@tranfamilylaw.com: Can divorce timeline have a calmer song? This one feels too hype for us."
+        }
+      ]
+    },
+    {
+      "message_id": "ec70989189bf485a",
+      "source_line": 65,
+      "source_reference": "data/messages.txt:65",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "approval",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "approval",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit approval and posting request for an existing version, with no new change.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "e03a55a90596362b",
+      "source_line": 68,
+      "source_reference": "data/messages.txt:68",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Guaranteed crypto-return pitch fits the explicit spam criterion.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "0a127314a8e70d02",
+      "source_line": 70,
+      "source_reference": "data/messages.txt:70",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Requests different song and new intro after same-contact approval at line65. A new postapproval version is revision, not evidence of continuation risk.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 65,
+          "raw_message": "[2026-07-18 13:05] EMAIL from reggie@evergreengym.co: Nutrition tip looks great. Approved! Post it."
+        }
+      ]
+    },
+    {
+      "message_id": "bdce5117835f6e5e",
+      "source_line": 89,
+      "source_reference": "data/messages.txt:89",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Positive feedback followed by an actionable monthly-service/pricing inquiry; sales takes priority over praise.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 72,
+          "raw_message": "[2026-07-23 09:59] EMAIL from bbrooks@willowfamilytherapy.com: Please take out the part in the office tour video where I talk about prices. Prices are changing."
+        }
+      ]
+    },
+    {
+      "message_id": "c2c45599e3d225aa",
+      "source_line": 95,
+      "source_reference": "data/messages.txt:95",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "identity",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "identity",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Announces rebrand and changed email. No request to change existing video content is stated.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 65,
+          "raw_message": "[2026-07-18 13:05] EMAIL from reggie@evergreengym.co: Nutrition tip looks great. Approved! Post it."
+        },
+        {
+          "line": 70,
+          "raw_message": "[2026-07-22 12:03] EMAIL from reggie@evergreengym.co: Actually we changed our mind on nutrition tip. Can we get a different song and a new intro? Sorry!"
+        }
+      ]
+    },
+    {
+      "message_id": "8f300c94f6f4122a",
+      "source_line": 103,
+      "source_reference": "data/messages.txt:103",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Requests delayed/bundled payment. Cash pressure alone is explicitly excluded from continuation risk.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "817ef5cc6892d04c",
+      "source_line": 105,
+      "source_reference": "data/messages.txt:105",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": null,
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "ambiguous_route",
+      "field_agreement": {
+        "route": null,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Unrecognized domain-renewal notice could be spam, but the source lacks domain ownership, vendor relationship, headers or link evidence. No previous exact-contact message exists. The frozen spam label is plausible, not independently established; billing or manual review cannot be ruled out.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "5f6c2aed802ca475",
+      "source_line": 109,
+      "source_reference": "data/messages.txt:109",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicit alternate-shot request via Instagram is a revision.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "e3fa5a8460776c70",
+      "source_line": 111,
+      "source_reference": "data/messages.txt:111",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Asks to buy a new short-clips service from existing episodes; sales, not correction of an existing deliverable.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "24d2ed7666d38716",
+      "source_line": 126,
+      "source_reference": "data/messages.txt:126",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Inbound Instagram reels-pack price inquiry is a commercial opportunity.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "219a4ae3d4f4e2ab",
+      "source_line": 136,
+      "source_reference": "data/messages.txt:136",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Reports partial payment and conditional balance timing; no current edit or explicit continuation concern.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "0901bd6057b13154",
+      "source_line": 142,
+      "source_reference": "data/messages.txt:142",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Pricing/package inquiry about new short-clip service is sales, including when sent from a personal address.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "bf4f76db94d0be41",
+      "source_line": 143,
+      "source_reference": "data/messages.txt:143",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "identity",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "identity",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Changed office phone/contact instruction, without a video correction. Applying it to future video assets is a workflow decision, not an explicit revision in this message.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 4,
+          "raw_message": "[2026-04-28 10:18] EMAIL from aisha@maplemedspa.com: Can you cut the first 3 seconds of membership promo? It starts slow."
+        },
+        {
+          "line": 96,
+          "raw_message": "[2026-08-03 12:01] EMAIL from aisha@maplemedspa.com: For botox before and after use the other shot, the one outside, not inside."
+        }
+      ]
+    },
+    {
+      "message_id": "1885604c9d2a73ae",
+      "source_line": 144,
+      "source_reference": "data/messages.txt:144",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Requests full company name in the videos: content compliance correction rather than a contact rename. No explicit continuation statement.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 86,
+          "raw_message": "[2026-07-28 09:27] WHATSAPP from +1 972-555-0101 (Victor): On claims made easy, use our brand color pink, not the one you used."
+        },
+        {
+          "line": 90,
+          "raw_message": "[2026-07-31 11:22] WHATSAPP from +1 972-555-0101 (Victor): Add our phone number at the end of why bundle home and auto."
+        },
+        {
+          "line": 106,
+          "raw_message": "[2026-08-15 17:20] WHATSAPP from +1 972-555-0101 (Victor): For claims made easy use the other shot, the one outside, not inside."
+        },
+        {
+          "line": 114,
+          "raw_message": "[2026-08-21 12:16] WHATSAPP from +1 972-555-0101 (Victor): On the teen driver tips video our name is spelled wrong in the caption."
+        }
+      ]
+    },
+    {
+      "message_id": "58f6c1ae6cd397b5",
+      "source_line": 156,
+      "source_reference": "data/messages.txt:156",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Specific session-time change is scheduling.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 131,
+          "raw_message": "[2026-08-27 21:21] WHATSAPP from +1 214-555-0196 (Trent): Can you remove the bit where I stumble on my words in the back pain myths video?"
+        }
+      ]
+    },
+    {
+      "message_id": "3b9c6212346b3c25",
+      "source_line": 157,
+      "source_reference": "data/messages.txt:157",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Says the requested full-name content correction remains wrong; revision true. Dissatisfaction is not explicit continuity reconsideration under the frozen narrow risk definition.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 36,
+          "raw_message": "[2026-06-17 08:01] EMAIL from victor@priceinsures.com: Why bundle home and auto: add the line 'walk-ins welcome' at the end please."
+        },
+        {
+          "line": 42,
+          "raw_message": "[2026-06-21 16:42] EMAIL from victor@priceinsures.com: Please make the captions bigger on teen driver tips, they're hard to read on my phone."
+        },
+        {
+          "line": 71,
+          "raw_message": "[2026-07-22 20:58] EMAIL from victor@priceinsures.com: Add our phone number at the end of teen driver tips."
+        },
+        {
+          "line": 127,
+          "raw_message": "[2026-08-26 17:42] EMAIL from victor@priceinsures.com: Can you remove the bit where I stumble on my words in rate review?"
+        }
+      ]
+    },
+    {
+      "message_id": "1442e7eaeec9ee4c",
+      "source_line": 161,
+      "source_reference": "data/messages.txt:161",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Acknowledges delivery and explains accounting will handle the invoice. Billing is the specific business-information route; no edit or new commercial purchase is requested.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 154,
+          "raw_message": "[2026-09-07 22:21] EMAIL from raj@oakcliffrg.com: Still not fixed on open house recap. A little frustrated honestly."
+        }
+      ]
+    },
+    {
+      "message_id": "83e48fd9f5b3683d",
+      "source_line": 163,
+      "source_reference": "data/messages.txt:163",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Refers a cousin at a separate auto business and requests contact about videos; sales.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 16,
+          "raw_message": "[2026-05-15 21:15] WHATSAPP from +1 214-555-0134 (Alan): Can you cut the first 3 seconds of divorce timeline? It starts slow."
+        },
+        {
+          "line": 60,
+          "raw_message": "[2026-07-14 13:28] WHATSAPP from +1 214-555-0134 (Alan): Three new cases came from your videos this month. Thank you."
+        },
+        {
+          "line": 110,
+          "raw_message": "[2026-08-18 20:21] WHATSAPP from +1 214-555-0134 (Alan): The music on do i need a lawyer? is too loud, I can't hear myself."
+        }
+      ]
+    },
+    {
+      "message_id": "5f4c7d65512e76cb",
+      "source_line": 166,
+      "source_reference": "data/messages.txt:166",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "spam",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Follower-sale advertisement fits the explicit spam rule despite the sender's billing-like name.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "b60ca0361303011d",
+      "source_line": 173,
+      "source_reference": "data/messages.txt:173",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "billing",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Links payment to posting and asks for delivery, without an edit/correction; billing is defensible and revision false.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 169,
+          "raw_message": "[2026-09-18 08:53] EMAIL from aisha@kindhandshomecare.com: Can you remove the bit where I stumble on my words in what to expect visit one?"
+        }
+      ]
+    },
+    {
+      "message_id": "a7258de62401929d",
+      "source_line": 183,
+      "source_reference": "data/messages.txt:183",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Cancel/move a particular prepaid shoot due to family emergency is scheduling; it does not end ongoing studio service.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "9fcfac8fee81f787",
+      "source_line": 185,
+      "source_reference": "data/messages.txt:185",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "praise",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "praise",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Unqualified thanks for the session fits praise.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 116,
+          "raw_message": "[2026-08-22 08:58] WHATSAPP from +1 469-555-0146 (Raj): For staging tips use the other shot, the one outside, not inside."
+        },
+        {
+          "line": 117,
+          "raw_message": "[2026-08-22 12:55] WHATSAPP from +1 469-555-0146 (Raj): Add our phone number at the end of the listing tour: oak st video."
+        }
+      ]
+    },
+    {
+      "message_id": "2d7dbb18eab37e9c",
+      "source_line": 188,
+      "source_reference": "data/messages.txt:188",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "reviewed_label": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Explicitly asks whether to continue the contract: churn route and continuation risk true.",
+      "preceding_exact_contact_context": []
+    },
+    {
+      "message_id": "4653924efa5f1a6e",
+      "source_line": 190,
+      "source_reference": "data/messages.txt:190",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Unresolved named-video complaint fits revision. Frustration alone is explicitly excluded from continuation risk.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 92,
+          "raw_message": "[2026-07-31 12:01] EMAIL from rtran@horizonwp.com: Still not fixed on retirement myths. A little frustrated honestly."
+        },
+        {
+          "line": 93,
+          "raw_message": "[2026-07-31 13:23] EMAIL from rtran@horizonwp.com: Please make the captions bigger on the tax season tips video, they're hard to read on my phone."
+        },
+        {
+          "line": 171,
+          "raw_message": "[2026-09-19 17:52] EMAIL from rtran@horizonwp.com: On retirement myths, use our brand color navy, not the one you used."
+        },
+        {
+          "line": 175,
+          "raw_message": "[2026-09-21 21:39] EMAIL from rtran@horizonwp.com: College savings: add the line 'walk-ins welcome' at the end please."
+        }
+      ]
+    },
+    {
+      "message_id": "4fc34d672a47f184",
+      "source_line": 191,
+      "source_reference": "data/messages.txt:191",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "reviewed_label": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Exact-contact thread contains line188 asking whether to continue. This is a follow-up to that discussion, making churn/risk true; generic contract administration alone would not suffice.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 188,
+          "raw_message": "[2026-09-29 21:41] WEBSITE FORM from sofia@priceinsures.com (Sofia Price, Price Insurance Group): We would like to talk about our contract and whether we continue."
+        }
+      ]
+    },
+    {
+      "message_id": "935a47acb1c2703f",
+      "source_line": 193,
+      "source_reference": "data/messages.txt:193",
+      "source_matches_frozen_example": true,
+      "original_expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "reviewed_label": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "review_status": "agree",
+      "field_agreement": {
+        "route": true,
+        "needs_revision": true,
+        "continuation_risk": true
+      },
+      "reason": "Spanish text asks for calmer music on a named video; explicit revision, no continuity concern.",
+      "preceding_exact_contact_context": [
+        {
+          "line": 43,
+          "raw_message": "[2026-06-22 12:31] WHATSAPP from +1 972-555-0140 (Simone): Sales went up after the reels. You can use this as a review!"
+        },
+        {
+          "line": 63,
+          "raw_message": "[2026-07-17 20:54] WHATSAPP from +1 972-555-0140 (Simone): Please make the captions bigger on owner story, they're hard to read on my phone."
+        }
+      ]
+    }
+  ],
+  "metadata_revision_note": "Review-status metadata updated after the applicant reported completing review. Frozen source messages, expected labels, rationales, IDs, blinded-review findings and reviewed_at_utc are unchanged; at-review hashes remain recorded."
+}

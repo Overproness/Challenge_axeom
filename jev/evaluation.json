@@ -1,0 +1,105 @@
+{
+  "label_provenance": "Reference labels reviewed by applicant (reported)",
+  "labeled_messages": 40,
+  "evaluated_messages": 40,
+  "coverage": 1.0,
+  "correct_by_field": {
+    "route": 37,
+    "needs_revision": 36,
+    "continuation_risk": 40
+  },
+  "accuracy_by_field": {
+    "route": 0.925,
+    "needs_revision": 0.9,
+    "continuation_risk": 1.0
+  },
+  "errors": [
+    {
+      "message_id": "a2e6d873042fea7f",
+      "source_line": 28,
+      "expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "actual": {
+        "route": "other",
+        "needs_revision": false,
+        "continuation_risk": false
+      }
+    },
+    {
+      "message_id": "c454629cb5aca019",
+      "source_line": 40,
+      "expected": {
+        "route": "churn",
+        "needs_revision": false,
+        "continuation_risk": true
+      },
+      "actual": {
+        "route": "churn",
+        "needs_revision": true,
+        "continuation_risk": true
+      }
+    },
+    {
+      "message_id": "27c967a2c9381642",
+      "source_line": 56,
+      "expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "actual": {
+        "route": "praise",
+        "needs_revision": false,
+        "continuation_risk": false
+      }
+    },
+    {
+      "message_id": "5f6c2aed802ca475",
+      "source_line": 109,
+      "expected": {
+        "route": "revision",
+        "needs_revision": true,
+        "continuation_risk": false
+      },
+      "actual": {
+        "route": "scheduling",
+        "needs_revision": false,
+        "continuation_risk": false
+      }
+    },
+    {
+      "message_id": "0901bd6057b13154",
+      "source_line": 142,
+      "expected": {
+        "route": "sales",
+        "needs_revision": false,
+        "continuation_risk": false
+      },
+      "actual": {
+        "route": "sales",
+        "needs_revision": true,
+        "continuation_risk": false
+      }
+    }
+  ],
+  "warning": "Selected 40-case development sample; continuation-risk evaluation has only 3 positive cases. Scores do not establish production performance.",
+  "prediction_source": {
+    "provider": "OpenCode (TypeSafe Jev)",
+    "requested_provider": "opencode",
+    "requested_model": "jev-1.13-free",
+    "requested_endpoint": "https://opencode.ai/inference/systemone/v1/systemone",
+    "transport": "curl",
+    "actual_models": [
+      "jev-1.13-free"
+    ],
+    "reported_cost_total_usd": 0.0,
+    "cost_reporting_complete": true,
+    "billing_sources": [
+      "free"
+    ],
+    "run_at": "2026-11-08T04:42:38.611864+00:00"
+  }
+}

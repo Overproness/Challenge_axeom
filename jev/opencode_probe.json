@@ -1,0 +1,47 @@
+{
+  "provider": "OpenCode",
+  "requested_model": "jev-1.13-free",
+  "endpoint": "https://opencode.ai/inference/systemone/v1/systemone",
+  "transport": "curl",
+  "started_at": "2026-11-08T04:37:41.512429+00:00",
+  "request": {
+    "model": "jev-1.13-free",
+    "state": "Please make the captions bigger on the video.",
+    "questions": {
+      "needs_revision": {
+        "type": "noul",
+        "instructions": "Does the message request a change to an existing video?"
+      }
+    }
+  },
+  "paid_fallback": false,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.13-free",
+    "answers": {
+      "needs_revision": {
+        "type": "noul",
+        "noul": 0.9
+      }
+    },
+    "usage": {
+      "input_tokens": 286,
+      "output_tokens": 21,
+      "cost": 0,
+      "opencode": {
+        "billing_source": "free",
+        "list_cost": 0,
+        "tokens": {
+          "input": 286,
+          "output": 21,
+          "reasoning": 0,
+          "cache_read": 0,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    }
+  },
+  "status": "succeeded",
+  "latency_ms": 675
+}

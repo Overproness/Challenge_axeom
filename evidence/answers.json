@@ -1,0 +1,1124 @@
+{
+  "pack_id": 169,
+  "your_name": "YOUR NAME HERE",
+  "your_email": "YOUR EMAIL HERE",
+  "live_link": "https://axeom-169-57w5zx10lf.qaimforfiverrmine.chatgpt.site",
+  "video_link": "",
+  "code_or_files_link": "https://axeom-169-57w5zx10lf.qaimforfiverrmine.chatgpt.site/axeom-pack-169.zip",
+  "client_count": 30,
+  "clients": [
+    {
+      "name": "Bloom Church",
+      "other_names_used_in_the_data": [
+        "Bloom DFW",
+        "Bloom Media Team",
+        "Quinn Lee"
+      ],
+      "emails": [
+        "media@bloomdfw.org"
+      ],
+      "phones": [
+        "469-555-0145"
+      ]
+    },
+    {
+      "name": "Bold & Brave Podcast",
+      "other_names_used_in_the_data": [
+        "B&B Podcast",
+        "Bold & Brave",
+        "Bold and Brave",
+        "Lena Moore"
+      ],
+      "emails": [
+        "lena.moore.mail@gmail.com",
+        "lena@boldandbrave.fm"
+      ],
+      "phones": [
+        "469-555-0186"
+      ]
+    },
+    {
+      "name": "Tran Dental",
+      "other_names_used_in_the_data": [
+        "Dr Tran",
+        "Dr. Joy Tran",
+        "Joy Tran",
+        "Joy Tran DDS",
+        "Tran Dental PLLC"
+      ],
+      "emails": [
+        "office@trandental.com",
+        "office@trandental.con"
+      ],
+      "phones": [
+        "817-555-0102"
+      ]
+    },
+    {
+      "name": "Metroplex Makers Podcast",
+      "other_names_used_in_the_data": [
+        "Metroplex Makers",
+        "Raj Haddad"
+      ],
+      "emails": [
+        "raj@metroplexmakers.fm"
+      ],
+      "phones": [
+        "972-555-0148"
+      ]
+    },
+    {
+      "name": "Silverleaf Builders",
+      "other_names_used_in_the_data": [
+        "David Daniels",
+        "Silverleaf",
+        "Silverleaf & Co Builders",
+        "Silverleaf Builders LLC"
+      ],
+      "emails": [
+        "david@silverleaf.build"
+      ],
+      "phones": [
+        "817-555-0197"
+      ]
+    },
+    {
+      "name": "Sage Roofing Co",
+      "other_names_used_in_the_data": [
+        "Alan Ortiz",
+        "Sage Roofing"
+      ],
+      "emails": [
+        "alan@sageroofingco.com"
+      ],
+      "phones": [
+        "469-555-0141"
+      ]
+    },
+    {
+      "name": "Maple Med Spa",
+      "other_names_used_in_the_data": [
+        "Aisha Fischer",
+        "Maple",
+        "Maple Med Spa - Frisco",
+        "Maple Med Spa - Plano",
+        "Maple Medspa"
+      ],
+      "emails": [
+        "aisha@maplemedspa.com",
+        "frisco@maplemedspa.com"
+      ],
+      "phones": [
+        "214-555-0145",
+        "972-555-0182"
+      ]
+    },
+    {
+      "name": "Sterling Bridal Boutique",
+      "other_names_used_in_the_data": [
+        "Simone Zamora",
+        "Sterling Bridal"
+      ],
+      "emails": [
+        "simone@sterlingbridal.com"
+      ],
+      "phones": [
+        "972-555-0140"
+      ]
+    },
+    {
+      "name": "Horizon Wealth Partners",
+      "other_names_used_in_the_data": [
+        "Horizon WP",
+        "Horizon Wealth",
+        "Reggie Tran"
+      ],
+      "emails": [
+        "rtran@horizonwp.com"
+      ],
+      "phones": [
+        "214-555-0162"
+      ]
+    },
+    {
+      "name": "Morales Law",
+      "other_names_used_in_the_data": [
+        "Alan Morales",
+        "Morales",
+        "Morales Law Firm",
+        "Morales Law Firm PLLC"
+      ],
+      "emails": [
+        "amorales@moraleslaw.com"
+      ],
+      "phones": [
+        "214-555-0134"
+      ]
+    },
+    {
+      "name": "Mesquite Fit",
+      "other_names_used_in_the_data": [
+        "Angela Tran",
+        "Mesquite",
+        "Mesquite Fitness"
+      ],
+      "emails": [
+        "angela@mesquitefit.co"
+      ],
+      "phones": [
+        "214-555-0181"
+      ]
+    },
+    {
+      "name": "Summit Physical Therapy",
+      "other_names_used_in_the_data": [
+        "Summit PT",
+        "Summit PT Dallas",
+        "Victor Lopez"
+      ],
+      "emails": [
+        "vlopez@summitptdallas.com"
+      ],
+      "phones": [
+        "214-555-0127"
+      ]
+    },
+    {
+      "name": "Vista Med Spa",
+      "other_names_used_in_the_data": [
+        "Carmen Morales",
+        "Vista",
+        "Vista Med Spa - Frisco",
+        "Vista Med Spa - Plano",
+        "Vista Medspa"
+      ],
+      "emails": [
+        "carmen@vistamedspa.com"
+      ],
+      "phones": [
+        "469-555-0188"
+      ]
+    },
+    {
+      "name": "Keystone Barbershop",
+      "other_names_used_in_the_data": [
+        "Keystone Barbers",
+        "Mateo Patel"
+      ],
+      "emails": [
+        "mateo@keystonebarbers.com"
+      ],
+      "phones": [
+        "469-555-0128"
+      ]
+    },
+    {
+      "name": "Price Insurance Group",
+      "other_names_used_in_the_data": [
+        "Price Ins",
+        "Price Insurance",
+        "Sofia Price",
+        "Victor Price"
+      ],
+      "emails": [
+        "sofia@priceinsures.com",
+        "victor@priceinsures.com"
+      ],
+      "phones": [
+        "972-555-0101",
+        "972-555-0163"
+      ]
+    },
+    {
+      "name": "Oak Cliff Realty LLC",
+      "other_names_used_in_the_data": [
+        "Joy Patel",
+        "Oak Cliff Realty"
+      ],
+      "emails": [
+        "joy@oakcliffrealty.com"
+      ],
+      "phones": [
+        "469-555-0161"
+      ]
+    },
+    {
+      "name": "Patel Dental",
+      "other_names_used_in_the_data": [
+        "Dr Patel",
+        "Dr. Megan Patel",
+        "Megan Patel",
+        "Megan Patel DDS",
+        "Patel Dental PLLC"
+      ],
+      "emails": [
+        "hello@pateldental.com"
+      ],
+      "phones": [
+        "972-555-0176"
+      ]
+    },
+    {
+      "name": "Sunset Pediatrics",
+      "other_names_used_in_the_data": [
+        "Northstar - Sunset",
+        "Sunset Peds",
+        "Trent Rivera"
+      ],
+      "emails": [
+        "trivera@sunsetpeds.com"
+      ],
+      "phones": [
+        "214-555-0196"
+      ]
+    },
+    {
+      "name": "Tran Family Law",
+      "other_names_used_in_the_data": [
+        "Ethan Tran",
+        "Tran Family Law PLLC",
+        "Tran Law"
+      ],
+      "emails": [
+        "info@tranfamilylaw.com"
+      ],
+      "phones": [
+        "972-555-0136"
+      ]
+    },
+    {
+      "name": "Cedar Coffee Roasters",
+      "other_names_used_in_the_data": [
+        "Cedar Coffee",
+        "Cedar Roasters",
+        "Sofia Becker"
+      ],
+      "emails": [
+        "sofia@cedarcoffee.com"
+      ],
+      "phones": [
+        "469-555-0130"
+      ]
+    },
+    {
+      "name": "Bayou Builders",
+      "other_names_used_in_the_data": [
+        "Bayou",
+        "Bayou & Co Builders",
+        "Bayou Builders LLC",
+        "Jordan Hassan"
+      ],
+      "emails": [
+        "jordan@bayou.build"
+      ],
+      "phones": [
+        "817-555-0149"
+      ]
+    },
+    {
+      "name": "Meridian Physical Therapy",
+      "other_names_used_in_the_data": [
+        "Darnell Brooks",
+        "Meridian PT",
+        "Meridian PT Dallas",
+        "Northstar - Meridian"
+      ],
+      "emails": [
+        "dbrooks@meridianptdallas.com"
+      ],
+      "phones": [
+        "214-555-0108"
+      ]
+    },
+    {
+      "name": "Evergreen Athletics",
+      "other_names_used_in_the_data": [
+        "Evergreen",
+        "Evergreen Gym",
+        "Evergreen Gym TX",
+        "Reggie Castillo"
+      ],
+      "emails": [
+        "reggie@evergreenathletics.com",
+        "reggie@evergreengym.co"
+      ],
+      "phones": [
+        "817-555-0168"
+      ]
+    },
+    {
+      "name": "Tran Auto Detailing",
+      "other_names_used_in_the_data": [
+        "Greg Tran",
+        "Tran Auto",
+        "Tran Detailing"
+      ],
+      "emails": [
+        "greg.tran.detail@gmail.com"
+      ],
+      "phones": [
+        "469-555-0137"
+      ]
+    },
+    {
+      "name": "Willow Family Therapy",
+      "other_names_used_in_the_data": [
+        "Brooke Brooks",
+        "Dr. Brooke Brooks",
+        "Willow Therapy"
+      ],
+      "emails": [
+        "bbrooks@willowfamilytherapy.com"
+      ],
+      "phones": [
+        "214-555-0173"
+      ]
+    },
+    {
+      "name": "Hillcrest Coffee Roasters",
+      "other_names_used_in_the_data": [
+        "Hillcrest Coffee",
+        "Hillcrest Roasters",
+        "Joy Ortiz"
+      ],
+      "emails": [
+        "joy@hillcrestcoffee.com"
+      ],
+      "phones": [
+        "972-555-0137"
+      ]
+    },
+    {
+      "name": "Crown Roofing Co",
+      "other_names_used_in_the_data": [
+        "Crown Roofing",
+        "Mateo Castillo"
+      ],
+      "emails": [
+        "mateo@crownroofingco.com"
+      ],
+      "phones": [
+        "214-555-0158"
+      ]
+    },
+    {
+      "name": "Oakcliff Realty Group",
+      "other_names_used_in_the_data": [
+        "Oakcliff RG",
+        "Raj Sullivan"
+      ],
+      "emails": [
+        "raj@oakcliffrg.com"
+      ],
+      "phones": [
+        "469-555-0146"
+      ]
+    },
+    {
+      "name": "Kind Hands Home Care",
+      "other_names_used_in_the_data": [
+        "Aisha Foster",
+        "Kind Hands Homecare"
+      ],
+      "emails": [
+        "aisha@kindhandshomecare.com"
+      ],
+      "phones": [
+        "817-555-0163"
+      ]
+    },
+    {
+      "name": "Cole's Auto Spa",
+      "other_names_used_in_the_data": [
+        "Cole's Auto",
+        "Coles Auto",
+        "Omar Cole"
+      ],
+      "emails": [
+        "omar@colesautospa.com"
+      ],
+      "phones": [
+        "972-555-0161"
+      ]
+    }
+  ],
+  "payers_who_are_not_clients": [
+    {
+      "name": "Northstar Media Co",
+      "pays_for": [
+        "Sunset Pediatrics",
+        "Meridian Physical Therapy"
+      ]
+    }
+  ],
+  "overdue": [
+    {
+      "client": "Crown Roofing Co",
+      "invoice": "INV-1091",
+      "amount_owed": 450.0,
+      "days_late": 47
+    },
+    {
+      "client": "Oakcliff Realty Group",
+      "invoice": "INV-1098",
+      "amount_owed": 1500.0,
+      "days_late": 39
+    },
+    {
+      "client": "Evergreen Athletics",
+      "invoice": "INV-1100",
+      "amount_owed": 900.0,
+      "days_late": 36
+    },
+    {
+      "client": "Sterling Bridal Boutique",
+      "invoice": "INV-1103",
+      "amount_owed": 900.0,
+      "days_late": 33
+    },
+    {
+      "client": "Tran Family Law",
+      "invoice": "INV-1108",
+      "amount_owed": 900.0,
+      "days_late": 26
+    },
+    {
+      "client": "Price Insurance Group",
+      "invoice": "INV-1112",
+      "amount_owed": 2500.0,
+      "days_late": 21
+    },
+    {
+      "client": "Kind Hands Home Care",
+      "invoice": "INV-1117",
+      "amount_owed": 1500.0,
+      "days_late": 19
+    },
+    {
+      "client": "Patel Dental",
+      "invoice": "INV-1130",
+      "amount_owed": 1500.0,
+      "days_late": 5
+    },
+    {
+      "client": "Northstar Media Co",
+      "invoice": "INV-1131",
+      "amount_owed": 900.0,
+      "days_late": 4
+    }
+  ],
+  "overdue_total": 11050.0,
+  "we_owe": [
+    {
+      "client": "Keystone Barbershop",
+      "amount": 900.0,
+      "why": "Unapplied bank receipt P5073; four nonvoid invoices total $3,600 but five receipts total $4,500. Confirm credit, future-service deposit or refund with owner; do not auto-refund."
+    }
+  ],
+  "never_billed": [
+    {
+      "client": "Bloom Church",
+      "booking_id_or_month": "B101",
+      "amount": 270.0
+    },
+    {
+      "client": "Silverleaf Builders",
+      "booking_id_or_month": "B111",
+      "amount": 1500.0
+    },
+    {
+      "client": "Bloom Church",
+      "booking_id_or_month": "B125",
+      "amount": 270.0
+    }
+  ],
+  "never_billed_total": 2040.0,
+  "billing_tool_is_wrong": [
+    {
+      "invoice": "INV-1087",
+      "tool_says": "unpaid",
+      "truth": "paid; balance $0.00",
+      "how_you_know": "P5093 $2500.00 (explicit bank reference)"
+    },
+    {
+      "invoice": "INV-1088",
+      "tool_says": "unpaid",
+      "truth": "paid; balance $0.00",
+      "how_you_know": "P5095 $270.00 (explicit bank reference)"
+    },
+    {
+      "invoice": "INV-1096",
+      "tool_says": "unpaid",
+      "truth": "paid; balance $0.00",
+      "how_you_know": "P5102 $300.00 (identity + bank period)"
+    },
+    {
+      "invoice": "INV-1103",
+      "tool_says": "paid",
+      "truth": "unpaid; balance $900.00",
+      "how_you_know": "No matching bank receipt exists after reserving explicit invoice references."
+    },
+    {
+      "invoice": "INV-1105",
+      "tool_says": "unpaid",
+      "truth": "paid; balance $0.00",
+      "how_you_know": "P5102 $300.00 (identity + bank period)"
+    },
+    {
+      "invoice": "INV-1110",
+      "tool_says": "unpaid",
+      "truth": "paid; balance $0.00",
+      "how_you_know": "P5102 $300.00 (identity + bank period)"
+    }
+  ],
+  "lost_requests": [
+    {
+      "video_id": "V035",
+      "request_date": "2026-05-19",
+      "came_by": "voice note",
+      "why_it_was_lost": "messages.txt line 19 requests add walk-ins welcome; V035 (Summit Physical Therapy, Insurance we take, assigned Ali) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V034",
+      "request_date": "2026-05-24",
+      "came_by": "voice note",
+      "why_it_was_lost": "messages.txt line 22 requests captions bigger; V034 (Summit Physical Therapy, Back pain myths, assigned Rita) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V068",
+      "request_date": "2026-06-17",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 37 requests phone number end card; V068 (Patel Dental, Implants explained, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V104",
+      "request_date": "2026-06-24",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 46 requests brand color navy; V104 (Mesquite Fit, Open house promo, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V089",
+      "request_date": "2026-06-27",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 48 requests blur client face; V089 (Tran Family Law, Do I need a lawyer?, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V084",
+      "request_date": "2026-06-28",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 53 requests music lower; V084 (Morales Law, Divorce timeline, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V103",
+      "request_date": "2026-07-03",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 58 requests calmer music; V103 (Mesquite Fit, Gym tour, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V114",
+      "request_date": "2026-07-15",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 62 requests cut first 3 sec; V114 (Meridian Physical Therapy, Meet the team, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V129",
+      "request_date": "2026-07-17",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 63 requests captions bigger; V129 (Sterling Bridal Boutique, Owner story, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V115",
+      "request_date": "2026-07-20",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 66 requests remove prices part; V115 (Keystone Barbershop, Price menu, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V134",
+      "request_date": "2026-07-22",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 69 requests phone number end card; V134 (Tran Dental, Why floss matters, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V155",
+      "request_date": "2026-07-23",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 72 requests remove prices part; V155 (Willow Family Therapy, Office tour, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V132",
+      "request_date": "2026-07-24",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 74 requests brand color pink; V132 (Tran Dental, First visit tour, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V142",
+      "request_date": "2026-07-25",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 76 requests cut first 3 sec; V142 (Horizon Wealth Partners, Retirement myths, assigned Ali) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V138",
+      "request_date": "2026-07-28",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 86 requests brand color pink; V138 (Price Insurance Group, Claims made easy, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V136",
+      "request_date": "2026-07-31",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 90 requests phone number end card; V136 (Price Insurance Group, Why bundle home and auto, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V177",
+      "request_date": "2026-08-03",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 96 requests use outside shot; V177 (Maple Med Spa, Botox before and after, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V179",
+      "request_date": "2026-08-10",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 100 requests use outside shot; V179 (Maple Med Spa, Laser hair removal, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V185",
+      "request_date": "2026-08-13",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 104 requests cut stumble; V185 (Keystone Barbershop, Fresh fade transformation, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V196",
+      "request_date": "2026-08-16",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 108 requests captions bigger; V196 (Sage Roofing Co, Leak warning signs, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V204",
+      "request_date": "2026-08-18",
+      "came_by": "instagram",
+      "why_it_was_lost": "messages.txt line 109 requests use outside shot; V204 (Meridian Physical Therapy, Walk-ins welcome, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V190",
+      "request_date": "2026-08-18",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 110 requests music lower; V190 (Morales Law, Do I need a lawyer?, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V184",
+      "request_date": "2026-08-23",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 118 requests add walk-ins welcome; V184 (Keystone Barbershop, Owner story, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V194",
+      "request_date": "2026-08-24",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 120 requests use outside shot; V194 (Sage Roofing Co, Roof inspection walkthrough, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V217",
+      "request_date": "2026-08-24",
+      "came_by": "instagram",
+      "why_it_was_lost": "messages.txt line 121 requests cut stumble; V217 (Oakcliff Realty Group, Open house recap, assigned Ali) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V222",
+      "request_date": "2026-08-24",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 122 requests use outside shot; V222 (Evergreen Athletics, Class schedule, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V212",
+      "request_date": "2026-08-25",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 123 requests calmer music; V212 (Bayou Builders, Kitchen remodel reveal, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V208",
+      "request_date": "2026-08-27",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 130 requests blur client face; V208 (Hillcrest Coffee Roasters, Happy hour promo, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V201",
+      "request_date": "2026-08-27",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 131 requests cut stumble; V201 (Sunset Pediatrics, Back pain myths, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V225",
+      "request_date": "2026-08-29",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 134 requests blur client face; V225 (Sterling Bridal Boutique, Try-on day, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V211",
+      "request_date": "2026-08-29",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 135 requests cut first 3 sec; V211 (Bayou Builders, Material choices, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V239",
+      "request_date": "2026-09-02",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 141 requests fix name spelling; V239 (Silverleaf Builders, Material choices, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V242",
+      "request_date": "2026-09-04",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 145 requests fix name spelling; V242 (Tran Dental, Why floss matters, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V238",
+      "request_date": "2026-09-07",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 150 requests captions bigger; V238 (Silverleaf Builders, Client walkthrough, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V244",
+      "request_date": "2026-09-07",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 151 requests remove prices part; V244 (Tran Dental, Whitening before and after, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V263",
+      "request_date": "2026-09-13",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 162 requests cut stumble; V263 (Keystone Barbershop, Sale promo, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V275",
+      "request_date": "2026-09-16",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 167 requests music lower; V275 (Morales Law, Divorce timeline, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V269",
+      "request_date": "2026-09-19",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 171 requests brand color navy; V269 (Horizon Wealth Partners, Retirement myths, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V295",
+      "request_date": "2026-09-21",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 174 requests captions bigger; V295 (Sunset Pediatrics, Patient story, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V268",
+      "request_date": "2026-09-21",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 175 requests add walk-ins welcome; V268 (Horizon Wealth Partners, College savings, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V307",
+      "request_date": "2026-09-22",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 177 requests captions bigger; V307 (Meridian Physical Therapy, Patient story, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V280",
+      "request_date": "2026-09-23",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 178 requests use outside shot; V280 (Willow Family Therapy, Couples tips, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V311",
+      "request_date": "2026-09-27",
+      "came_by": "email",
+      "why_it_was_lost": "messages.txt line 186 requests captions bigger; V311 (Oak Cliff Realty LLC, Market update, assigned Zara) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    },
+    {
+      "video_id": "V316",
+      "request_date": "2026-10-02",
+      "came_by": "whatsapp",
+      "why_it_was_lost": "messages.txt line 193 requests calmer music; V316 (Sterling Bridal Boutique, New arrivals, assigned Rita) has empty notes_on_board. This proves a capture gap, not which person caused it."
+    }
+  ],
+  "lost_requests_root_causes": [
+    "There is no complete transfer of instructions from messages to production_board.csv. In 118 manually mapped edit requests, 44 have empty board notes; two voice-note requests and both Instagram edit requests were missed.",
+    "The handoff worsens after Zara joins on June 2: all 39 audited, named-title requests for Zara videos are missing board notes, versus 5 of 79 for other editors. This points to an onboarding/handoff/QA gap; it does not establish personal blame.",
+    "Requests span email, WhatsApp, voice notes and Instagram, and senders share first names. Resolve identity by full email/phone, client aliases and shoot context; never by first name alone.",
+    "Messages saying the one we shot last week omit a video ID/title; three missing requests cannot be assigned to an exact video without an assumption.",
+    "Repeat titles across shoots require batch context and version history. Approval is not final forever: Sterling V018 and Evergreen V119 were approved then reopened with new scope. Do not count all revisions as studio mistakes.",
+    "Price Insurance Group's September 3 client-wide naming instruction has no durable brand-rule field and was violated again September 10. Spanish requests also need capture: October 2 calmer-song request for Sterling V316 has no board note."
+  ],
+  "lost_requests_started_getting_worse_in": "2026-06",
+  "never_replied_leads": [
+    "L004",
+    "L010",
+    "L012",
+    "L017",
+    "L019",
+    "L020",
+    "L049",
+    "L051",
+    "L053",
+    "L054",
+    "L063",
+    "L065",
+    "L071",
+    "L074",
+    "L076",
+    "L077",
+    "L078",
+    "L082",
+    "L087",
+    "L090",
+    "L092",
+    "L097",
+    "L098"
+  ],
+  "most_likely_to_leave": {
+    "client": "Price Insurance Group",
+    "evidence": [
+      "2026-09-03 voice note from Victor at 972-555-0101 says to use the full company name for compliance; no corresponding brand instruction is on the board (messages.txt:144).",
+      "2026-09-10 Victor says videos still say Price Insurance, repeats his instruction and says Not happy (messages.txt:157).",
+      "2026-09-29 Sofia Price asks whether they continue via website form; L097 has no first reply (messages.txt:188; leads.csv:L097).",
+      "2026-10-02 Sofia follows up asking to discuss the contract this week (messages.txt:191).",
+      "The next retainer shoot is October 9 (bookings.csv:B155). Summit PT already announced a pause on June 19, so its historical churn is a warning precedent rather than the strongest current save opportunity."
+    ],
+    "what_to_do_this_week": "Zaid should acknowledge Sofia and arrange the contract conversation within one business day, before the October 9 shoot. Confirm the full legal name once as a client brand rule, have an accountable editor audit all current Price videos against it, show the corrected versions to Victor for approval, and agree named ownership plus a turnaround time for every future request. Ask what must change to continue; record the commitment and follow up this week. All outbound contact requires owner approval."
+  },
+  "best_marketing_channel": {
+    "channel": "Meta ad",
+    "why": "Highest observed contribution in the declared first-touch model: $24,000.40 across 6 clients, vs Website form $21,371.80 across 9 and Referral $18,510.60 across 7. Completed booking prices plus May–September retainer invoices, less studio hours at $40/hour and all recorded editor hours at individual pay rates (includes revisions and recorded WIP). Meta also leads average contribution at $4,000.07/client. This is not net profit or acquisition ROI: ad spend, overhead, owner/shoot labor and full lifetime value are missing."
+  },
+  "what_this_data_cannot_tell_us": [
+    "Actual final-video contents, delivery timestamps and whether the missing board instructions were implemented elsewhere; capture gaps are observable, final quality is not.",
+    "Whether replies or bank receipts exist outside these exports; a blank reply or missing receipt is an operational warning rather than proof of universal absence.",
+    "Cancellation/refund terms or extra cash for Oak Cliff Realty LLC B146 / INV-1135. The client claims prepayment, but available receipts reference other completed services. Hold $1,500 separately as disputed; literal overdue including it is $12,550, confirmed collection queue is $11,050.",
+    "The recipient-level split of Northstar September cash: payer-level remainder $900 is supported; FIFO attribution to INV-1131 is provisional, not proof which recipient has not paid.",
+    "Whether Keystone extra $900 is refundable, a duplicate, or an agreed future-service deposit; it is an unapplied client credit pending owner decision.",
+    "Contracts proving additional retainer months or a Horizon August $250 undercharge. Do not create debt from an assumed uniform monthly price.",
+    "Certain original video IDs for three unnamed requests (candidates V101/V124/V224), and a single video for Price's client-wide legal-name requirement.",
+    "Causality or personal fault behind the increase in missing handoffs after June. Zara-assigned correlation is not a causal experiment.",
+    "Acquisition spend, fixed overhead, sales/shoot labor, taxes/fees, true net profit, causal channel ROI or complete client lifetime value.",
+    "Applicant receipt time/deadline, personal identity or a real video recording. Name/email placeholders need replacement.",
+    "General Jev accuracy on future messages: the frozen 40-case development benchmark measured 37/40 route, 36/40 edit detection and 40/40 continuation-risk matches. Only three cases are risk-positive; the selected sample does not establish general production accuracy."
+  ],
+  "monday_top_3": [
+    "Save Price Insurance Group: acknowledge Sofia's contract concern and correct the repeatedly missed full-name instruction before the October 9 retainer shoot. It is an explicit, unanswered renewal risk rather than an inferred sentiment score.",
+    "Review the reconciled cash queue: collect verified overdue balances, correct paid/cancelled/duplicate billing records, decide refunds or credits, and bill completed unbilled work. Verify bank allocations before approving any reminder.",
+    "Stop the next missed handoff: triage all message channels into one client/video request queue, assign an owner and due date, confirm ambiguous titles, and add a second check on Zara's current work. Reply to warm opportunities from Willow (July 30), Metroplex (August 19), Lena (September 3), and the Morales Tire & Auto referral (September 13)."
+  ],
+  "audit_context": {
+    "as_of": "2026-10-06",
+    "currency": "USD",
+    "overdue_excludes_disputed_cancellation": 1500,
+    "literal_overdue_including_dispute": 12550,
+    "confirmed_unapplied_credit_total": 900,
+    "raw_blank_first_reply_leads": [
+      "L004",
+      "L010",
+      "L012",
+      "L017",
+      "L019",
+      "L020",
+      "L028",
+      "L031",
+      "L044",
+      "L049",
+      "L051",
+      "L053",
+      "L054",
+      "L063",
+      "L065",
+      "L071",
+      "L074",
+      "L076",
+      "L077",
+      "L078",
+      "L082",
+      "L087",
+      "L090",
+      "L092",
+      "L095",
+      "L097"
+    ],
+    "excluded_junk_leads": [
+      "L028",
+      "L031",
+      "L044",
+      "L095"
+    ],
+    "future_reply_anomaly": {
+      "lead": "L098",
+      "first_reply": "2026-10-08",
+      "decision": "Treat as unacknowledged as of October 6; do not rely on future reply or Lost status as historical truth."
+    },
+    "post_approval_scope_changes": [
+      {
+        "video_id": "V018",
+        "approved": "2026-05-09",
+        "changed": "2026-05-14",
+        "message_lines": [
+          11,
+          15
+        ],
+        "note": "Different song and new intro requested after approval. In revision; board retains only original outside-shot note. Scope-change capture gap, not proof initial delivery ignored client."
+      },
+      {
+        "video_id": "V119",
+        "approved": "2026-07-18",
+        "changed": "2026-07-22",
+        "message_lines": [
+          65,
+          70
+        ],
+        "note": "Different song and new intro after approval. Board calmer-music note partially captures a later unnamed request; new intro/version change lacks durable history."
+      }
+    ],
+    "ambiguous_original_requests": [
+      {
+        "message_line": 44,
+        "request_date": "2026-06-23",
+        "came_by": "email",
+        "candidate_video": "V101",
+        "requested_change": "Calmer music",
+        "why_uncertain": "No title in original request; July 3 patient-story follow-up supports V101, but cannot prove original video.",
+        "message": "[2026-06-23 20:46] EMAIL from vlopez@summitptdallas.com: Can the one we shot last week have a calmer song? This one feels too hype for us."
+      },
+      {
+        "message_line": 64,
+        "request_date": "2026-07-17",
+        "came_by": "email",
+        "candidate_video": "V124",
+        "requested_change": "Add walk-ins welcome",
+        "why_uncertain": "No title in original; July 27 wills-in-60-seconds follow-up supports V124, but cannot prove original video.",
+        "message": "[2026-07-17 21:44] EMAIL from amorales@moraleslaw.com: The one we shot last week: add the line 'walk-ins welcome' at the end please."
+      },
+      {
+        "message_line": 119,
+        "request_date": "2026-08-23",
+        "came_by": "whatsapp",
+        "candidate_video": "V224",
+        "requested_change": "Phone number end card",
+        "why_uncertain": "No title in original; September 1 open-house-promo follow-up supports V224, but cannot prove original video.",
+        "message": "[2026-08-23 21:52] WHATSAPP from +1 817-555-0168 (Reggie): Add our phone number at the end of the one we shot last week."
+      }
+    ],
+    "northstar_allocation": "INV-1131 is the FIFO representative of a supported payer-level $900 September remainder; recipient split is uncertain.",
+    "jev_status": "completed_real_OpenCode_jev-1.13-free_benchmark40_cost0",
+    "jev_evaluation": {
+      "label_provenance": "Reference labels reviewed by applicant (reported)",
+      "labeled_messages": 40,
+      "evaluated_messages": 40,
+      "coverage": 1.0,
+      "correct_by_field": {
+        "route": 37,
+        "needs_revision": 36,
+        "continuation_risk": 40
+      },
+      "accuracy_by_field": {
+        "route": 0.925,
+        "needs_revision": 0.9,
+        "continuation_risk": 1.0
+      },
+      "errors": [
+        {
+          "message_id": "a2e6d873042fea7f",
+          "source_line": 28,
+          "expected": {
+            "route": "revision",
+            "needs_revision": true,
+            "continuation_risk": false
+          },
+          "actual": {
+            "route": "other",
+            "needs_revision": false,
+            "continuation_risk": false
+          }
+        },
+        {
+          "message_id": "c454629cb5aca019",
+          "source_line": 40,
+          "expected": {
+            "route": "churn",
+            "needs_revision": false,
+            "continuation_risk": true
+          },
+          "actual": {
+            "route": "churn",
+            "needs_revision": true,
+            "continuation_risk": true
+          }
+        },
+        {
+          "message_id": "27c967a2c9381642",
+          "source_line": 56,
+          "expected": {
+            "route": "sales",
+            "needs_revision": false,
+            "continuation_risk": false
+          },
+          "actual": {
+            "route": "praise",
+            "needs_revision": false,
+            "continuation_risk": false
+          }
+        },
+        {
+          "message_id": "5f6c2aed802ca475",
+          "source_line": 109,
+          "expected": {
+            "route": "revision",
+            "needs_revision": true,
+            "continuation_risk": false
+          },
+          "actual": {
+            "route": "scheduling",
+            "needs_revision": false,
+            "continuation_risk": false
+          }
+        },
+        {
+          "message_id": "0901bd6057b13154",
+          "source_line": 142,
+          "expected": {
+            "route": "sales",
+            "needs_revision": false,
+            "continuation_risk": false
+          },
+          "actual": {
+            "route": "sales",
+            "needs_revision": true,
+            "continuation_risk": false
+          }
+        }
+      ],
+      "warning": "Selected 40-case development sample; continuation-risk evaluation has only 3 positive cases. Scores do not establish production performance.",
+      "prediction_source": {
+        "provider": "OpenCode (TypeSafe Jev)",
+        "requested_provider": "opencode",
+        "requested_model": "jev-1.13-free",
+        "requested_endpoint": "https://opencode.ai/inference/systemone/v1/systemone",
+        "transport": "curl",
+        "actual_models": [
+          "jev-1.13-free"
+        ],
+        "reported_cost_total_usd": 0.0,
+        "cost_reporting_complete": true,
+        "billing_sources": [
+          "free"
+        ],
+        "run_at": "2026-11-08T04:42:38.611864+00:00"
+      }
+    },
+    "jev_snapshot": {
+      "processed_inbound_messages": 192,
+      "successful": 192,
+      "model": "jev-1.13-free",
+      "reported_cost_total_usd": 0.0,
+      "billing_sources": [
+        "free"
+      ],
+      "all_responses_checked_free": true,
+      "note": "The 40-case benchmark is preserved separately; the full-inbox results do not replace it.",
+      "applicant_review_reported": true,
+      "applicant_review_reported_date": "2026-11-09"
+    }
+  }
+}
